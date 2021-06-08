@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="cover">
+      <div class="title"><h1>Guessing Game</h1></div>
+       <div class="mgs"><h3>Take a chance to Guess</h3></div>
+      <div class="inputbar"><input type="number" id="input" min="1" max="10"></div>
+    <div class="buttons">
+        <button onclick="check()">Check</button>
+        <button onclick="reload()">Restart</button>
+        </div>
+      
+        <div class="result">Let's Start</div>
+        <div class="history"></div>
+        <div class="rules"><h4>Rules:</h4>
+        1. Enter a number between 1 to 10.<br>
+        2. You're given 3 chances.<br>
+        3. If you're guess matches with computers choice, You win.
+        </div>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>
