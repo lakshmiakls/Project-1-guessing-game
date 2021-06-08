@@ -2,7 +2,7 @@ const randomno = Math.floor(Math.random()*9+1);
 const inputbar = document.querySelector("#input");
 const resultbar = document.querySelector(".result");
 const historybar = document.querySelector(".history");
-const chancesleft = document.querySelector(".chance")
+
 
 
 historybar.innerHTML = "You're Guesses will be listed here";
